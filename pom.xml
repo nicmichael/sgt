@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>de.nmichael</groupId>
+    <artifactId>sgt</artifactId>
+    <version>3.0</version>
+    <packaging>jar</packaging>
+    
+    <name>SGT</name>
+    <description>Scientific Graphics Toolkit</description>
+    <url>https://www.pmel.noaa.gov/epic/java/sgt/</url>
+    
+    <licenses>
+        <license>
+            <name>Software License for EPIC Software</name>
+            <url>https://www.pmel.noaa.gov/epic/java/license.html</url>
+        </license>
+    </licenses>
+    
+    <developers>
+        <developer>
+            <name>Nicolas Michael</name>
+            <email>email@nmichael.de</email>
+            <organizationUrl>http://www.nmichael.de</organizationUrl>
+        </developer>
+        <developer>
+            <name>Donald W. Denbo</name>
+            <email>Donald.W.Denbo@noaa.gov</email>
+            <organizationUrl>http://www.noaa.gov/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/nicmichael/sgt.git</connection>
+        <developerConnection>scm:git:ssh://github.com:nicmichael/sgt.git</developerConnection>
+        <url>https://github.com/nicmichael/sgt</url>
+    </scm>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+</project>
